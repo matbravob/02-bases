@@ -8,11 +8,10 @@ import { ListComponent } from './list/list.component';
 @NgModule({
   declarations: [
     HeroeComponent,
-    ListComponent
+
   ],
   exports: [
-    HeroeComponent,
-    ListComponent
+    HeroeComponent
   ],
   imports: [
     CommonModule,
